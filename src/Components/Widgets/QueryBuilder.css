@@ -1,0 +1,296 @@
+.queryDiv {
+    width: 415px;
+    /* height: 290px; */
+    min-height: 150px;
+    background: #ffffff;
+    box-shadow: 0 0 5px silver;
+    display: flex;
+    flex-direction: column;
+}
+
+.queryDiv-heading {
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid silver;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.queryDiv-heading>h6 {
+    color: rgb(56, 56, 56);
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.queryDiv-field {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3px 0px 3px 0px;
+}
+.queryDiv-field-gmt{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 3px 0px 3px 0px;
+}
+
+.queryDiv-field>span {
+    font-size: 14px;
+    margin-left: 10px;
+}
+.queryDiv-InputDropdownField{
+    width: 223px;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 7px;
+}
+
+.queryDiv-field-btn {
+    width: 133px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 5px silver;
+    border: .1px solid rgb(51, 51, 51);
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    margin-left: 4px;
+}
+.queryDiv-field-input{
+    width: 206px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+.valueselect>input{
+   margin-right: 5px;
+   cursor: pointer;
+}
+.percentselect>input{
+    margin-right: 5px;
+    cursor: pointer;
+ }
+
+.increaseDivWidth{
+    width: 200px !important;
+}
+.inputDiv {
+    width: 60px;
+    border: 1px solid rgb(0, 0, 0);
+    height: 30px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.inputDiv>input{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding-left: 4px;
+}
+
+
+.queryDiv-field-btn>button {
+    width: 148px;
+    height: 28px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 4px;
+    overflow: hidden;
+    margin-right: 5px;
+    font-size: 14px;
+    background: #fff;
+}
+
+.queryDiv-field-btn>input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    border-radius: 5px;
+    margin-right: 4px;
+}
+
+.operatorDisplay {
+    height: 20px !important;
+}
+
+.displayValue {
+    width: fit-content;
+    height: 24px;
+    font-size: 12px;
+    background: silver;
+    color: black;
+    border-radius: 5px;
+    padding: 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2px;
+    text-wrap: nowrap;
+}
+
+.dropdownOption {
+    width: 140px;
+    min-height: 20px;
+    max-height: 170px;
+    position: absolute;
+    top: 35px;
+    right: 116px;
+    background: #fff;
+    box-shadow: 0 0 5px silver;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    z-index: 1;
+    border: .1px solid black;
+}
+.lableDiv{
+    width: 100%;
+    min-height: 20px;
+    max-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.upArrowDiv{
+    width: 100%;
+    height: 20px;
+    background: rgb(243, 243, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-top: .1px solid rgb(78, 78, 78);
+}
+.increaseDropdownWidth{
+    width: 198px !important;
+    right: 12px !important;
+}
+
+.operatorDropdown {
+    width: 130px !important;
+    right: 80px !important;
+    padding-left: 10px;
+}
+.operatorDropdown>label {
+    margin: 5px 0px 6px 0px;
+    cursor: pointer;
+    /* background: silver; */
+    /* padding: 0px 0px 2px 2px; */
+    width: 100px;
+    /* height: 30px; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 5px;
+}
+.operatorDropdown>label:nth-child(1) {
+    margin-top: 3px;
+}
+.operatorDropdown>label:nth-child(3) {
+    margin-bottom: 3px;
+}
+.operatorDropdown>label:hover {
+    background: silver;
+    transition: .5s ease-in-out;
+}
+.lableDiv>label {
+    width: 95%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 4px auto;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-wrap: nowrap;
+    font-size: 15px;
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+}
+
+.lableDiv>label:hover {
+    background: silver;
+    border-radius: 5px;
+}
+
+.lableDiv>label>input {
+    margin-right: 10px;
+    width: 13px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+.popup-open {
+    display: none;
+  }
+  
+  .popup-content {
+    display: none;
+    position: absolute;
+    top: 55%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 34rem;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: #888;
+  }
+  
+  .close-btn:hover {
+    color: #333;
+  }
+  .graph-icon:hover{
+    cursor:pointer;
+  }

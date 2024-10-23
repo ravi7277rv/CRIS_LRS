@@ -1,0 +1,39 @@
+
+.queryDiv-button {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.queryDiv-button>button {
+    border: none;
+    outline: .1px solid rgb(194, 194, 194);
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    box-shadow: 0 0 5px silver;
+    background: rgb(255, 255, 255);
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.queryDiv-button>button:hover {
+    background: rgb(247, 247, 247);
+
+}
+
+.queryDiv-button>button:nth-child(1) {
+    margin-right: 20px;
+}
+
+.queryDiv-button>button:nth-child(2) {
+    margin-left: 20px;
+}

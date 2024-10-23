@@ -1,0 +1,69 @@
+.logoutContainer{
+    width: 400px;
+    height: 150px;
+    background: white;
+    box-shadow: 0 0 4px silver;
+    /* border: 1px solid #005fa2; */
+}
+.logoutRow-One{
+    width: 100%;
+    height: 40px;
+    background: #005fa2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logoutRow-One>h2{
+ font-size: 20px;
+ color: white;
+ margin-left: 10px;
+}
+.logoutRow-One>span{
+    width: 25px;
+    height: 25px;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    margin-right: 10px;
+    color: white;
+    cursor: pointer;
+}
+.logoutRow-Two{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logoutRow-Two>p{
+    font-size: 18px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.logoutRow-Three{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoutRow-Three>button{
+    border: none;
+    background: #005fa2;
+    color: white;
+    font-size: 18px;
+    padding: 2px 8px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.m-left{
+ margin-left: 30px;
+}
+.m-right{
+    margin-right: 30px;
+}

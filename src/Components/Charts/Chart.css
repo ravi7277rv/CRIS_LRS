@@ -1,0 +1,116 @@
+.chartContainer {
+  border: 1px solid #ccc;
+  position: absolute;
+  background: white;
+  box-Sizing: border-box;
+  top: -167px;
+  right: 0;
+  height: 800px;
+}
+
+.chartContainerHeading {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid rgb(182, 182, 182);
+}
+
+.btnDragOver {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 20px;
+  font-size: 16px;
+  border-radius: 10%;
+  margin-left: 5px;
+  font-weight: 800;
+  background: white;
+  box-shadow: 0 0 2px rgb(240, 240, 240);
+  cursor: ew-resize;
+}
+
+.chartContainerHeading>span {
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.chartContainerBody {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  background: #fff;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 768px;
+  justify-content: flex-start;
+}
+
+.chartContainerZW {
+  /* width: 300px;
+  height: 230px; */
+  position: relative;
+  box-shadow: 0 0 4px rgb(160, 160, 160);
+}
+
+
+
+.chartContainerZW>span {
+  position: absolute;
+  top: -10px;
+  right: -12px;
+  width: 18px;
+  height: 18px;
+  border-radius: 20%;
+  z-index: 99999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 5px rgb(153, 153, 153);
+  border: 0.1px solid rgb(145, 145, 145);
+  font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+  .chartContainer {
+    height: 695px;
+  }
+
+  .chartContainerBody {
+    height: 660px;
+  }
+}
+/* @media screen and (max-height: 810px) {
+  .chartContainer {
+    height: 460px;
+  }
+
+  .chartContainerBody {
+    height: 660px;
+  }
+} */
+
+@media screen and (max-width: 1440px) {
+  .chartContainer {
+    height: 695px;
+  }
+
+  .chartContainerBody {
+    height: 660px;
+  }
+}
+.apexcharts-toolbar {
+  top: 15px !important;
+}
+.apexcharts-legend {
+  width: 110px !important;
+}
+.apexcharts-legend-series {
+  display: flex !important;
+    align-items: flex-start !important;
+}
